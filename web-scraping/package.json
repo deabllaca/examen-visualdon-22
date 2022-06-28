@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "examen-final-visualdon",
   "version": "1.0.0",
   "description": "Examen - VisualDon 2022",
@@ -6,7 +7,6 @@
     "build": "babel src -d lib",
     "start": "webpack-dev-server"
   },
-  "type": "module",
   "author": "Noemi Romano",
   "license": "ISC",
   "dependencies": {
@@ -27,6 +27,6 @@
     "json-loader": "^0.5.7",
     "webpack": "^5.73.0",
     "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.9.2"
+    "webpack-dev-server": "^4.7.4"
   }
 }
